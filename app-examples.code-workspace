@@ -1,0 +1,13 @@
+{
+    "folders": [
+      {
+        "name": "✨ monorepo",
+        "path": "."
+      },
+      {
+        "name": "📻 @project/loop",
+        "path": "packages/loop"
+      }
+    ]
+  }
+  
