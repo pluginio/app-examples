@@ -1,0 +1,16 @@
+{
+    "name": "@pluginio/app-examples",
+    "private": true,
+    "workspaces": [
+      "packages/*"
+    ],
+    "devDependencies": {
+      "lerna": "^3.22.1"
+    },
+    "scripts": {
+      "test": "lerna run test",
+      "prebuild": "npx lerna bootstrap --force-local",
+      "build": "lerna run build",
+      "start": "lerna run start"
+    }
+}
